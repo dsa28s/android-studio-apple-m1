@@ -1,6 +1,6 @@
-# Android Studio Arctic Fox for Apple Sillicon
+# Android Studio Arctic Fox for Apple Silicon
 
-This is a unofficial canary version of Android Studio Arctic Fox on the M1.
+This is a unofficial canary version of Android Studio Arctic Fox on the Apple Silicon. (e.g M1 Chip)
 
 <img src="https://raw.githubusercontent.com/dsa28s/android-studio-apple-m1/main/screenshot.png">
 
@@ -23,6 +23,8 @@ Android Studio Arctic Fox Canary 14 (Updated at 2021-04-08)
 - Zoom with Trackpad
 - Kotlin Native Multiplatform iOS Build (But, Android build is ok)
   - You can build manualy open `*.xcodeproject` with Xcode.
+- Android Studio splash screen not closing.
+  - But, you can using editor normally. When the editor is closed, the splash screen also closed automatically.
 - More.. (If an issue occurs while using it, please submit the issue. Thanks!)
 
 
