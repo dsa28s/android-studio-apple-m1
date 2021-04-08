@@ -2,6 +2,8 @@
 
 This is a unofficial canary version of Android Studio Arctic Fox on the M1.
 
+<img src="https://raw.githubusercontent.com/dsa28s/android-studio-apple-m1/main/screenshot.png">
+
 ## Download
 
 You can download at [project release page (Click Here!)](https://github.com/dsa28s/android-studio-apple-m1/releases)
