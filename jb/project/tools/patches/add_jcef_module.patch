@@ -1,0 +1,30 @@
+diff --git modules.list modules.list
+index e23d793..368d022 100644
+--- modules.list
++++ modules.list
+@@ -54,4 +54,7 @@ jdk.security.jgss,
+ jdk.unsupported,
+ jdk.xml.dom,
+ jdk.zipfs,
+-jdk.hotspot.agent
++jdk.hotspot.agent,
++jcef,
++gluegen.rt,
++jogl.all
+diff --git src/java.desktop/share/classes/module-info.java src/java.desktop/share/classes/module-info.java
+index b663b38..3e9acdc 100644
+--- src/java.desktop/share/classes/module-info.java
++++ src/java.desktop/share/classes/module-info.java
+@@ -109,7 +109,11 @@ module java.desktop {
+     // see make/GensrcModuleInfo.gmk
+     exports sun.awt to
+         jdk.accessibility,
+-        jdk.unsupported.desktop;
++        jdk.unsupported.desktop,
++        jcef,
++        jogl.all;
++
++    exports java.awt.peer to jcef;
+ 
+     exports java.awt.dnd.peer to jdk.unsupported.desktop;
+     exports sun.awt.dnd to jdk.unsupported.desktop;

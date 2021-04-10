@@ -1,0 +1,26 @@
+From 9c8d44a088bfd73f9be3678110a67a5ed8954c8a Mon Sep 17 00:00:00 2001
+From: Vladimir Dvorak <lada.dvorak7@gmail.com>
+Date: Tue, 6 Oct 2020 22:15:31 +0200
+Subject: [PATCH 11/17] AllowEnhancedClassRedefinition is false (disabled) by
+ default
+
+---
+ src/hotspot/share/runtime/globals.hpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/hotspot/share/runtime/globals.hpp b/src/hotspot/share/runtime/globals.hpp
+index fc0405b5df2..607a39449dc 100644
+--- a/src/hotspot/share/runtime/globals.hpp
++++ b/src/hotspot/share/runtime/globals.hpp
+@@ -2682,7 +2682,7 @@ define_pd_global(uint64_t,MaxRAM,                    1ULL*G);
+   experimental(bool, UseFastUnorderedTimeStamps, false,                     \
+           "Use platform unstable time where supported for timestamps only") \
+                                                                             \
+-  product(bool, AllowEnhancedClassRedefinition, true,                       \
++  product(bool, AllowEnhancedClassRedefinition, false,                      \
+              "Allow enhanced class redefinition beyond swapping method "    \
+              "bodies")                                                      \
+                                                                             \
+-- 
+2.23.0
+
