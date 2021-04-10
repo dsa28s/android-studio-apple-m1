@@ -1,0 +1,9 @@
+DEFINES_MODULE = YES
+INSTALL_PATH = /
+DYLIB_INSTALL_NAME_BASE = @rpath
+
+HEADER_SEARCH_PATHS = $(SRCROOT)/../../src/java.base/share/native/include $(SRCROOT)/../../src/java.base/unix/native/include
+
+// TODO: These should be removed as issues are addressed
+CLANG_ENABLE_OBJC_ARC = NO
+GCC_ENABLE_OBJC_EXCEPTIONS = YES

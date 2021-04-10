@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C69E26310782500003EB656 /* JNFDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C69E261107824FF003EB656 /* JNFDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C69E26410782500003EB656 /* JNFDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69E26210782500003EB656 /* JNFDate.m */; };
+		3F012B3323DEDA5A00B98AC3 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D6A5FE840307C02AAC07 /* AppKit.framework */; };
+		3F012B3423DEDA9600B98AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		3F012B3623DEDABE00B98AC3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F012B3523DEDABE00B98AC3 /* CoreFoundation.framework */; };
+		8900DAEB0CB0365300EE572C /* JNFTypeCoercion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8900DAE90CB0365300EE572C /* JNFTypeCoercion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8900DAEC0CB0365300EE572C /* JNFTypeCoercion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8900DAEA0CB0365300EE572C /* JNFTypeCoercion.m */; };
+		89260F6E0CB622FC00FA4947 /* JNFThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 89260F6C0CB622FC00FA4947 /* JNFThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89260F6F0CB622FC00FA4947 /* JNFThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 89260F6D0CB622FC00FA4947 /* JNFThread.m */; };
+		8927F56D0D8F1E27008C35E3 /* JNFJObjectWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8927F56B0D8F1E27008C35E3 /* JNFJObjectWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8927F56E0D8F1E27008C35E3 /* JNFJObjectWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927F56C0D8F1E27008C35E3 /* JNFJObjectWrapper.m */; };
+		89A8E9F80FA60E2D006CC298 /* JNFRunnable.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A8E9F60FA60E2D006CC298 /* JNFRunnable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A8E9F90FA60E2D006CC298 /* JNFRunnable.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A8E9F70FA60E2D006CC298 /* JNFRunnable.m */; };
+		89AC839F0CAF4BD600480894 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83880CAF4BD600480894 /* debug.h */; };
+		89AC83A00CAF4BD600480894 /* debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC83890CAF4BD600480894 /* debug.m */; };
+		89AC83A10CAF4BD600480894 /* JNFAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC838A0CAF4BD600480894 /* JNFAssert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83A20CAF4BD600480894 /* JNFAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC838B0CAF4BD600480894 /* JNFAssert.m */; };
+		89AC83A30CAF4BD600480894 /* JNFAutoreleasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC838C0CAF4BD600480894 /* JNFAutoreleasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83A40CAF4BD600480894 /* JNFAutoreleasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC838D0CAF4BD600480894 /* JNFAutoreleasePool.m */; };
+		89AC83A70CAF4BD600480894 /* JNFException.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83900CAF4BD600480894 /* JNFException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83A80CAF4BD600480894 /* JNFException.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC83910CAF4BD600480894 /* JNFException.m */; };
+		89AC83A90CAF4BD600480894 /* JavaNativeFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83920CAF4BD600480894 /* JavaNativeFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83AA0CAF4BD600480894 /* JNFJNI.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83930CAF4BD600480894 /* JNFJNI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83AB0CAF4BD600480894 /* JNFJNI.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC83940CAF4BD600480894 /* JNFJNI.m */; };
+		89AC83AC0CAF4BD600480894 /* JNFNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83950CAF4BD600480894 /* JNFNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83AD0CAF4BD600480894 /* JNFNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC83960CAF4BD600480894 /* JNFNumber.m */; };
+		89AC83AE0CAF4BD600480894 /* JNFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83970CAF4BD600480894 /* JNFObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83AF0CAF4BD600480894 /* JNFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC83980CAF4BD600480894 /* JNFObject.m */; };
+		89AC83B00CAF4BD600480894 /* JNFPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC83990CAF4BD600480894 /* JNFPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83B10CAF4BD600480894 /* JNFPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC839A0CAF4BD600480894 /* JNFPath.m */; };
+		89AC83B20CAF4BD600480894 /* JNFString.h in Headers */ = {isa = PBXBuildFile; fileRef = 89AC839B0CAF4BD600480894 /* JNFString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AC83B30CAF4BD600480894 /* JNFString.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AC839C0CAF4BD600480894 /* JNFString.m */; };
+		89B69B370F47D3C500C86CA9 /* JNFRunLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B69B350F47D3C500C86CA9 /* JNFRunLoop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B69B380F47D3C500C86CA9 /* JNFRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B69B360F47D3C500C86CA9 /* JNFRunLoop.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2C69E261107824FF003EB656 /* JNFDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFDate.h; sourceTree = "<group>"; };
+		2C69E26210782500003EB656 /* JNFDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFDate.m; sourceTree = "<group>"; };
+		3F012B3523DEDABE00B98AC3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3FA4788A23E37879005466BA /* common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = common.xcconfig; sourceTree = "<group>"; };
+		3FA4788B23E37879005466BA /* JavaNativeFoundation.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = JavaNativeFoundation.xcconfig; sourceTree = "<group>"; };
+		8900DAE90CB0365300EE572C /* JNFTypeCoercion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFTypeCoercion.h; sourceTree = "<group>"; };
+		8900DAEA0CB0365300EE572C /* JNFTypeCoercion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFTypeCoercion.m; sourceTree = "<group>"; };
+		89260F6C0CB622FC00FA4947 /* JNFThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFThread.h; sourceTree = "<group>"; };
+		89260F6D0CB622FC00FA4947 /* JNFThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFThread.m; sourceTree = "<group>"; };
+		8927F56B0D8F1E27008C35E3 /* JNFJObjectWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFJObjectWrapper.h; sourceTree = "<group>"; };
+		8927F56C0D8F1E27008C35E3 /* JNFJObjectWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFJObjectWrapper.m; sourceTree = "<group>"; };
+		89A8E9F60FA60E2D006CC298 /* JNFRunnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFRunnable.h; sourceTree = "<group>"; };
+		89A8E9F70FA60E2D006CC298 /* JNFRunnable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFRunnable.m; sourceTree = "<group>"; };
+		89AC83880CAF4BD600480894 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		89AC83890CAF4BD600480894 /* debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = debug.m; sourceTree = "<group>"; };
+		89AC838A0CAF4BD600480894 /* JNFAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFAssert.h; sourceTree = "<group>"; };
+		89AC838B0CAF4BD600480894 /* JNFAssert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFAssert.m; sourceTree = "<group>"; };
+		89AC838C0CAF4BD600480894 /* JNFAutoreleasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFAutoreleasePool.h; sourceTree = "<group>"; };
+		89AC838D0CAF4BD600480894 /* JNFAutoreleasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFAutoreleasePool.m; sourceTree = "<group>"; };
+		89AC83900CAF4BD600480894 /* JNFException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFException.h; sourceTree = "<group>"; };
+		89AC83910CAF4BD600480894 /* JNFException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFException.m; sourceTree = "<group>"; };
+		89AC83920CAF4BD600480894 /* JavaNativeFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaNativeFoundation.h; sourceTree = "<group>"; };
+		89AC83930CAF4BD600480894 /* JNFJNI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFJNI.h; sourceTree = "<group>"; };
+		89AC83940CAF4BD600480894 /* JNFJNI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFJNI.m; sourceTree = "<group>"; };
+		89AC83950CAF4BD600480894 /* JNFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFNumber.h; sourceTree = "<group>"; };
+		89AC83960CAF4BD600480894 /* JNFNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFNumber.m; sourceTree = "<group>"; };
+		89AC83970CAF4BD600480894 /* JNFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFObject.h; sourceTree = "<group>"; };
+		89AC83980CAF4BD600480894 /* JNFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFObject.m; sourceTree = "<group>"; };
+		89AC83990CAF4BD600480894 /* JNFPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFPath.h; sourceTree = "<group>"; };
+		89AC839A0CAF4BD600480894 /* JNFPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFPath.m; sourceTree = "<group>"; };
+		89AC839B0CAF4BD600480894 /* JNFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFString.h; sourceTree = "<group>"; };
+		89AC839C0CAF4BD600480894 /* JNFString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFString.m; sourceTree = "<group>"; };
+		89AC83B80CAF4BE400480894 /* JavaNativeFoundation-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JavaNativeFoundation-Info.plist"; sourceTree = "<group>"; };
+		89B69B350F47D3C500C86CA9 /* JNFRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNFRunLoop.h; sourceTree = "<group>"; };
+		89B69B360F47D3C500C86CA9 /* JNFRunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNFRunLoop.m; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* JavaNativeFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JavaNativeFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F012B3323DEDA5A00B98AC3 /* AppKit.framework in Frameworks */,
+				3F012B3623DEDABE00B98AC3 /* CoreFoundation.framework in Frameworks */,
+				3F012B3423DEDA9600B98AC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* JavaNativeFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* JavaFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				3FA4788923E37879005466BA /* xcconfig */,
+				89AC83870CAF4BD600480894 /* JavaNativeFoundation */,
+				1058C7B0FEA5585E11CA2CBB /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = JavaFoundation;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F012B3523DEDABE00B98AC3 /* CoreFoundation.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FA4788923E37879005466BA /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				3FA4788A23E37879005466BA /* common.xcconfig */,
+				3FA4788B23E37879005466BA /* JavaNativeFoundation.xcconfig */,
+			);
+			path = xcconfig;
+			sourceTree = "<group>";
+		};
+		89A01F7B0DA099070015CD2A /* autorelease */ = {
+			isa = PBXGroup;
+			children = (
+				89AC838C0CAF4BD600480894 /* JNFAutoreleasePool.h */,
+				89AC838D0CAF4BD600480894 /* JNFAutoreleasePool.m */,
+			);
+			name = autorelease;
+			sourceTree = "<group>";
+		};
+		89A01F7E0DA0991E0015CD2A /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				89AC838A0CAF4BD600480894 /* JNFAssert.h */,
+				89AC838B0CAF4BD600480894 /* JNFAssert.m */,
+				89AC83880CAF4BD600480894 /* debug.h */,
+				89AC83890CAF4BD600480894 /* debug.m */,
+			);
+			name = debug;
+			sourceTree = "<group>";
+		};
+		89A01F800DA0994A0015CD2A /* conversion */ = {
+			isa = PBXGroup;
+			children = (
+				89AC839B0CAF4BD600480894 /* JNFString.h */,
+				89AC839C0CAF4BD600480894 /* JNFString.m */,
+				89AC83950CAF4BD600480894 /* JNFNumber.h */,
+				89AC83960CAF4BD600480894 /* JNFNumber.m */,
+				2C69E261107824FF003EB656 /* JNFDate.h */,
+				2C69E26210782500003EB656 /* JNFDate.m */,
+				89AC83990CAF4BD600480894 /* JNFPath.h */,
+				89AC839A0CAF4BD600480894 /* JNFPath.m */,
+				8900DAE90CB0365300EE572C /* JNFTypeCoercion.h */,
+				8900DAEA0CB0365300EE572C /* JNFTypeCoercion.m */,
+			);
+			name = conversion;
+			sourceTree = "<group>";
+		};
+		89A01F900DA099DC0015CD2A /* threading */ = {
+			isa = PBXGroup;
+			children = (
+				8927F56B0D8F1E27008C35E3 /* JNFJObjectWrapper.h */,
+				8927F56C0D8F1E27008C35E3 /* JNFJObjectWrapper.m */,
+				89260F6C0CB622FC00FA4947 /* JNFThread.h */,
+				89260F6D0CB622FC00FA4947 /* JNFThread.m */,
+				89B69B350F47D3C500C86CA9 /* JNFRunLoop.h */,
+				89B69B360F47D3C500C86CA9 /* JNFRunLoop.m */,
+				89A8E9F60FA60E2D006CC298 /* JNFRunnable.h */,
+				89A8E9F70FA60E2D006CC298 /* JNFRunnable.m */,
+			);
+			name = threading;
+			sourceTree = "<group>";
+		};
+		89A01F910DA09A540015CD2A /* basics */ = {
+			isa = PBXGroup;
+			children = (
+				89AC83930CAF4BD600480894 /* JNFJNI.h */,
+				89AC83940CAF4BD600480894 /* JNFJNI.m */,
+				89AC83970CAF4BD600480894 /* JNFObject.h */,
+				89AC83980CAF4BD600480894 /* JNFObject.m */,
+				89AC83900CAF4BD600480894 /* JNFException.h */,
+				89AC83910CAF4BD600480894 /* JNFException.m */,
+			);
+			name = basics;
+			sourceTree = "<group>";
+		};
+		89AC83870CAF4BD600480894 /* JavaNativeFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				89AC83B80CAF4BE400480894 /* JavaNativeFoundation-Info.plist */,
+				89AC83920CAF4BD600480894 /* JavaNativeFoundation.h */,
+				89A01F910DA09A540015CD2A /* basics */,
+				89A01F800DA0994A0015CD2A /* conversion */,
+				89A01F900DA099DC0015CD2A /* threading */,
+				89A01F7B0DA099070015CD2A /* autorelease */,
+				89A01F7E0DA0991E0015CD2A /* debug */,
+			);
+			path = JavaNativeFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC839F0CAF4BD600480894 /* debug.h in Headers */,
+				89AC83A10CAF4BD600480894 /* JNFAssert.h in Headers */,
+				89AC83A30CAF4BD600480894 /* JNFAutoreleasePool.h in Headers */,
+				89AC83A70CAF4BD600480894 /* JNFException.h in Headers */,
+				89AC83A90CAF4BD600480894 /* JavaNativeFoundation.h in Headers */,
+				89AC83AA0CAF4BD600480894 /* JNFJNI.h in Headers */,
+				89AC83AC0CAF4BD600480894 /* JNFNumber.h in Headers */,
+				89AC83AE0CAF4BD600480894 /* JNFObject.h in Headers */,
+				89AC83B00CAF4BD600480894 /* JNFPath.h in Headers */,
+				89AC83B20CAF4BD600480894 /* JNFString.h in Headers */,
+				8900DAEB0CB0365300EE572C /* JNFTypeCoercion.h in Headers */,
+				89260F6E0CB622FC00FA4947 /* JNFThread.h in Headers */,
+				8927F56D0D8F1E27008C35E3 /* JNFJObjectWrapper.h in Headers */,
+				89B69B370F47D3C500C86CA9 /* JNFRunLoop.h in Headers */,
+				89A8E9F80FA60E2D006CC298 /* JNFRunnable.h in Headers */,
+				2C69E26310782500003EB656 /* JNFDate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* JavaNativeFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "JavaNativeFoundation" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaNativeFoundation;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = JavaFoundation;
+			productReference = 8DC2EF5B0486A6940098B216 /* JavaNativeFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "JavaNativeFoundation" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* JavaFoundation */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* JavaNativeFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AC83A00CAF4BD600480894 /* debug.m in Sources */,
+				89AC83A20CAF4BD600480894 /* JNFAssert.m in Sources */,
+				89AC83A40CAF4BD600480894 /* JNFAutoreleasePool.m in Sources */,
+				89AC83A80CAF4BD600480894 /* JNFException.m in Sources */,
+				89AC83AB0CAF4BD600480894 /* JNFJNI.m in Sources */,
+				89AC83AD0CAF4BD600480894 /* JNFNumber.m in Sources */,
+				89AC83AF0CAF4BD600480894 /* JNFObject.m in Sources */,
+				89AC83B10CAF4BD600480894 /* JNFPath.m in Sources */,
+				89AC83B30CAF4BD600480894 /* JNFString.m in Sources */,
+				8900DAEC0CB0365300EE572C /* JNFTypeCoercion.m in Sources */,
+				89260F6F0CB622FC00FA4947 /* JNFThread.m in Sources */,
+				8927F56E0D8F1E27008C35E3 /* JNFJObjectWrapper.m in Sources */,
+				89B69B380F47D3C500C86CA9 /* JNFRunLoop.m in Sources */,
+				89A8E9F90FA60E2D006CC298 /* JNFRunnable.m in Sources */,
+				2C69E26410782500003EB656 /* JNFDate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA4788B23E37879005466BA /* JavaNativeFoundation.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA4788B23E37879005466BA /* JavaNativeFoundation.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA4788A23E37879005466BA /* common.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA4788A23E37879005466BA /* common.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "JavaNativeFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "JavaNativeFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
