@@ -27,6 +27,11 @@ Android Studio Arctic Fox Canary 14 (Updated at 2021-04-08)
   - But, you can using editor normally. When the editor is closed, the splash screen also closed automatically.
 - More.. (If an issue occurs while using it, please submit the issue. Thanks!)
 
+## Q&A
+
+1. Q: Can't open this application, error message: `“Android Studio Preview ARM64” is damaged and can’t be opened. You should move it to the Trash.`
+
+   A: Execute `sudo xattr -r -d com.apple.quarantine /Applications/Android\ Studio\ Preview\ ARM64.app`, then retry.
 
 <br>
 
