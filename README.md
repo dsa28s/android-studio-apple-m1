@@ -8,6 +8,14 @@ This is a unofficial canary version of Android Studio Arctic Fox on the Apple Si
 
 You can download at [project release page (Click Here!)](https://github.com/dsa28s/android-studio-apple-m1/releases)
 
+## Troubleshooting
+
+If it doesn't launch and macOS claims that the application is damaged then do not allow it to be moved to the bin, instead open up a Terminal and run the following:
+
+`sudo xattr -r -d com.apple.quarantine /Applications/Android\ Studio\ Preview\ ARM64.app`
+
+Then reopen and it should work fine.
+
 ## Current version
 
 Android Studio Arctic Fox Canary 14 (Updated at 2021-04-08)
